@@ -8,7 +8,7 @@ const WeatherWidget = () => {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(async (position) => {
       const { latitude, longitude } = position.coords;
-      const apiKey = "9ed4c9b5092ff37127e7a33bc6df8086";  // Replace with your actual API key
+      const apiKey = "";  // Replace with your actual API key
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${apiKey}`;
       
       try {
