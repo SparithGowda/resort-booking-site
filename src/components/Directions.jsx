@@ -2,7 +2,7 @@ import React from "react";
 
 const Directions = ({ onClose }) => {
     const resortLocation =
-        "https://www.google.com/maps/embed/v1/directions?key=AIzaSyAJk99cku47dsLxPv1hdXJmIhHV1MQyeFU&origin=Your+Current+Location&destination=28.6139,77.2090";
+        "https://www.google.com/maps/embed/v1/directions?key=&origin=Your+Current+Location&destination=28.6139,77.2090";
 
     return (
         <div className="bg-white text-black rounded-lg shadow-lg p-3 w-80 z-50 relative">
